@@ -83,11 +83,11 @@ module.exports = {
                 pages.push({
                     title: '<a:botinfo:1323576555389321311> Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
-                    commands: [
+                    <a:AdditionalInfo:1323533477173268532> Additional Information: [
                         `**<a:Devbot:1323501645006639124> Bot Developer:** TEAM MINE\n`+
                         `**<:botversion:1323526046682845185> Bot Version:** 1.1.0\n`+
                         `**<:total:1323526659965587499> Total Servers:** ${totalServers}\n`+
-                        `**Total Members:** ${totalMembers}\n`+
+                        `**<:total:1323526659965587499> Total Members:** ${totalMembers}\n`+
                         `**<a:uptime:1323502507896606771> Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
                         `**<:Commands:1317871118765527122> Total Commands:** ${totalCommands}\n`+
                         `**<:enabletick:1300149107335102565> Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
@@ -241,7 +241,7 @@ module.exports = {
                 pages.push({
                     title: '<a:botinfo:1323576555389321311> Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
-                    commands: [
+                    <a:AdditionalInfo:1323533477173268532> Additional Information: [
                         `**<a:Devbot:1323501645006639124> Bot Developer:** TEAM MINE\n`+
                         `**<:botversion:1323526046682845185> Bot Version:** 1.1.0\n`+
                         `**<:total:1323526659965587499> Total Servers:** ${totalServers}\n`+
