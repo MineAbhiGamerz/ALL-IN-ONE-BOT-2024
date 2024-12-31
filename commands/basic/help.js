@@ -81,24 +81,24 @@ module.exports = {
                 
 
                 pages.push({
-                    title: 'Bot Information',
+                    title: '<a:botinfo:1323576555389321311> Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
                     commands: [
                         `**<a:Devbot:1323501645006639124> Bot Developer:** TEAM MINE\n`+
-                        `**Bot Version:** 1.1.0\n`+
-                        `**Total Servers:** ${totalServers}\n`+
+                        `**<:botversion:1323526046682845185> Bot Version:** 1.1.0\n`+
+                        `**<:total:1323526659965587499> Total Servers:** ${totalServers}\n`+
                         `**Total Members:** ${totalMembers}\n`+
-                        `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
-                        `**Total Commands:** ${totalCommands}\n`+
-                        `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
-                        `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
+                        `**<a:uptime:1323502507896606771> Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
+                        `**<:Commands:1317871118765527122> Total Commands:** ${totalCommands}\n`+
+                        `**<:enabletick:1300149107335102565> Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
+                        `**<:disable_cross:1323242405432135723> Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
                     ],
                     image: "https://cdn.discordapp.com/attachments/1322495380537212968/1323499993247645738/standard_2.gif?ex=6774bceb&is=67736b6b&hm=63bd3b0f0a64519f06f17f9d19531ed14f30cf0259c14a78e1fa286eb354e002&",
                     color: "#3498db",
-                    thumbnail: "https://cdn.discordapp.com/attachments/1264134884432285766/1270353776489922651/s_removed.png?ex=66b364a6&is=66b21326&hm=2d4ded259b57f476c901c58401e1d6faba2653c0a964ee1c4f371ecf3da52100&",
+                    thumbnail: "https://cdn.discordapp.com/attachments/1322495380537212968/1323501047779426385/30895ff2-0dfc-4100-ac37-0f4dd3d17e9c.gif?ex=6774bde7&is=67736c67&hm=00358d39a609c4462f70ee852cef589d546115a34a0a000ebe939526eb18e82e&",
                     author: {
-                        name: 'TEAM MINE | All In One',
-                        iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
+                        name: 'TEAM MINE | AIO',
+                        iconURL: "https://cdn.discordapp.com/attachments/1322495380537212968/1323501047779426385/30895ff2-0dfc-4100-ac37-0f4dd3d17e9c.gif?ex=6774bde7&is=67736c67&hm=00358d39a609c4462f70ee852cef589d546115a34a0a000ebe939526eb18e82e&",
                         url: "https://discord.gg/fZQUcabh6b"
                     }
                 });
@@ -129,7 +129,7 @@ module.exports = {
                         author: {
                             name: `${category.charAt(0).toUpperCase() + category.slice(1)} Commands`,
                             iconURL: "",
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/fZQUcabh6b"
                         }
                     };
 
@@ -239,25 +239,25 @@ module.exports = {
             
                 const totalCommands = totalCommandFiles + totalExcessCommandFiles;
                 pages.push({
-                    title: 'Bot Information',
+                    title: '<a:botinfo:1323576555389321311> Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
                     commands: [
-                        `**💜 Bot Developer:** GlaceYT\n`+
-                        `**Bot Version:** 1.1.0\n`+
-                        `**Total Servers:** ${totalServers}\n`+
-                        `**Total Members:** ${totalMembers}\n`+
-                        `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
-                        `**Total Commands:** ${totalCommands}\n`+
-                        `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
-                        `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
+                        `**<a:Devbot:1323501645006639124> Bot Developer:** TEAM MINE\n`+
+                        `**<:botversion:1323526046682845185> Bot Version:** 1.1.0\n`+
+                        `**<:total:1323526659965587499> Total Servers:** ${totalServers}\n`+
+                        `**<:total:1323526659965587499> Total Members:** ${totalMembers}\n`+
+                        `**<a:uptime:1323502507896606771> Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
+                        `**<:Commands:1317871118765527122> Total Commands:** ${totalCommands}\n`+
+                        `**<:enabletick:1300149107335102565> Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
+                        `**<:disable_cross:1323242405432135723> Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
                     ],
-                    image: "https://cdn.discordapp.com/attachments/1264134884432285766/1297492873146667028/glaceyt.png?ex=671cb767&is=671b65e7&hm=890bbfe51aea32cd666365720aeb408b6367896dcf40a4c9abde13d405976d79&",
+                    image: "https://cdn.discordapp.com/attachments/1322495380537212968/1323499993247645738/standard_2.gif?ex=6774bceb&is=67736b6b&hm=63bd3b0f0a64519f06f17f9d19531ed14f30cf0259c14a78e1fa286eb354e002&",
                     color: "#3498db",
-                    thumbnail: "https://cdn.discordapp.com/attachments/1264134884432285766/1270353776489922651/s_removed.png?ex=66b364a6&is=66b21326&hm=2d4ded259b57f476c901c58401e1d6faba2653c0a964ee1c4f371ecf3da52100&",
+                    thumbnail: "https://cdn.discordapp.com/attachments/1322495380537212968/1323501047779426385/30895ff2-0dfc-4100-ac37-0f4dd3d17e9c.gif?ex=6774bde7&is=67736c67&hm=00358d39a609c4462f70ee852cef589d546115a34a0a000ebe939526eb18e82e&",
                     author: {
-                        name: 'All In One',
-                        iconURL: "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&",
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        name: 'TEAM MINE | AIO',
+                        iconURL: "https://cdn.discordapp.com/attachments/1322495380537212968/1323501047779426385/30895ff2-0dfc-4100-ac37-0f4dd3d17e9c.gif?ex=6774bde7&is=67736c67&hm=00358d39a609c4462f70ee852cef589d546115a34a0a000ebe939526eb18e82e&",
+                        url: "https://discord.gg/fZQUcabh6b"
                     }
                 });
 
