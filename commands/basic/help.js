@@ -241,15 +241,15 @@ module.exports = {
                 pages.push({
                     title: 'Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
-                    <a:AdditionalInfo:1323533477173268532> Additional Information: [
-                        `**<a:Devbot:1323501645006639124> Bot Developer:** TEAM MINE\n`+
-                        `**<:botversion:1323526046682845185> Bot Version:** 1.1.0\n`+
-                        `**<:total:1323526659965587499> Total Servers:** ${totalServers}\n`+
-                        `**<:total:1323526659965587499> Total Members:** ${totalMembers}\n`+
-                        `**<a:uptime:1323502507896606771> Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
-                        `**<:Commands:1317871118765527122> Total Commands:** ${totalCommands}\n`+
-                        `**<:enabletick:1300149107335102565> Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
-                        `**<:disable_cross:1323242405432135723> Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
+                    Additional Information: [
+                        `**Bot Developer:** TEAM MINE\n`+
+                        `**Bot Version:** 1.1.0\n`+
+                        `**Total Servers:** ${totalServers}\n`+
+                        `*Total Members:** ${totalMembers}\n`+
+                        `**Bot Uptime:** ${uptimeHours}h ${uptimeMinutes}m ${uptimeSeconds}s\n`+
+                        `**Total Commands:** ${totalCommands}\n`+
+                        `**Enabled Categories:** ${enabledCategoriesList.join(', ')}\n`+
+                        `**Disabled Categories:** ${disabledCategoriesList.join(', ')}\n`,
                     ],
                     image: "https://cdn.discordapp.com/attachments/1322495380537212968/1323499993247645738/standard_2.gif?ex=6774bceb&is=67736b6b&hm=63bd3b0f0a64519f06f17f9d19531ed14f30cf0259c14a78e1fa286eb354e002&",
                     color: "#3498db",
