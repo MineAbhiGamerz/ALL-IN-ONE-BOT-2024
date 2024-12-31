@@ -141,7 +141,7 @@ module.exports = {
                             page.author.iconURL = "https://cdn.discordapp.com/attachments/1246408947708072027/1255167194036437093/1558-zerotwo-exciteddance.gif?ex=667c250a&is=667ad38a&hm=09e6db36fd79436eb57de466589f21ca947329edd69b8e591d0f6586b89df296&";
                             break;
                         case 'basic':
-                            page.image = "https://cdn.discordapp.com/attachments/1264134884432285766/1270352605154902151/GlaceYT.gif?ex=66b3638f&is=66b2120f&hm=23878b54affd61573b105db7c1c016eb730911dc762b3fbabac5a32cbc884119&";
+                            page.image = "https://cdn.discordapp.com/attachments/1322495380537212968/1323499993247645738/standard_2.gif?ex=6774bceb&is=67736b6b&hm=63bd3b0f0a64519f06f17f9d19531ed14f30cf0259c14a78e1fa286eb354e002&";
                             page.color = "#99ccff";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1264134884432285766/1270353776489922651/s_removed.png?ex=66b364a6&is=66b21326&hm=2d4ded259b57f476c901c58401e1d6faba2653c0a964ee1c4f371ecf3da52100&";
                             page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
@@ -165,7 +165,7 @@ module.exports = {
                             page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
                             break;
                         case 'distube music':
-                            page.image = "https://cdn.discordapp.com/attachments/1264134884432285766/1270352605154902151/GlaceYT.gif?ex=66b3638f&is=66b2120f&hm=23878b54affd61573b105db7c1c016eb730911dc762b3fbabac5a32cbc884119&";
+                            page.image = "https://cdn.discordapp.com/attachments/1322495380537212968/1323499993247645738/standard_2.gif?ex=6774bceb&is=67736b6b&hm=63bd3b0f0a64519f06f17f9d19531ed14f30cf0259c14a78e1fa286eb354e002&";
                             page.color = "#ff0000";
                             page.thumbnail = "https://cdn.discordapp.com/attachments/1264134884432285766/1270353776489922651/s_removed.png?ex=66b364a6&is=66b21326&hm=2d4ded259b57f476c901c58401e1d6faba2653c0a964ee1c4f371ecf3da52100&";
                             page.author.iconURL = "https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=66a9667f&is=66a814ff&hm=1494b63ccfaf2dae30a35af520fb748dd17e76195c206f2925b526595018c60f&";
@@ -439,7 +439,7 @@ module.exports = {
                 .setAuthor({ 
                     name: "Alert!", 
                     iconURL: cmdIcons.dotIcon ,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/fZQUcabh6b"
                 })
                 .setDescription('- This command can only be used through slash command!\n- Please use `/help`')
                 .setTimestamp();
