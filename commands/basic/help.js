@@ -239,7 +239,7 @@ module.exports = {
             
                 const totalCommands = totalCommandFiles + totalExcessCommandFiles;
                 pages.push({
-                    title: '<a:botinfo:1323576555389321311> Bot Information',
+                    title: 'Bot Information',
                     description: `Welcome to the help command! This bot provides a variety of commands to enhance your server experience. Below are the categories and the number of commands available in each.`,
                     <a:AdditionalInfo:1323533477173268532> Additional Information: [
                         `**<a:Devbot:1323501645006639124> Bot Developer:** TEAM MINE\n`+
